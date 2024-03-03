@@ -35,4 +35,4 @@ var maximumOddBinaryNumber = function(s) {
     return result + '1'
 }
 
-console.log(maximumOddBinaryNumber(s1))
+console.log(maximumOddBinaryNumber(s1)) 
