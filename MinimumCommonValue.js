@@ -64,4 +64,29 @@ var getCommon = function(nums1, nums2) {
 }
 
 // console.log(getCommon(nums1A, nums2A))
-console.log(getCommon(nums1B, nums2B))
+// console.log(getCommon(nums1B, nums2B))
+
+
+
+
+
+
+
+function getCommon2(nums1, nums2) {
+    // create new set from nums1
+    const nums1Set = new Set(nums1)
+
+    // loop through nums2
+    for(let i = 0; i < nums2.length; i++) {
+        // check if number exists in set
+        if(nums1Set.has(nums2[i])) {
+            // return num
+            return nums2[i]
+        }
+    }
+
+    // return -1
+    return -1
+}
+
+console.log(getCommon2(nums1B, nums2B))
