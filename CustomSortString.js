@@ -10,6 +10,7 @@ const s3 = 'pekeq'
 const order4 = "disqyr"
 const s4 = "iwyrysqrdj"
 
+
 function customSortString(order, s) {
     // convert s to an array
     const arr = s.split('')
