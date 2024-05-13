@@ -1,5 +1,6 @@
 score1 = [2, 5, 7, 8, 1]
 
+// LeetCode Algo
 function findRelativeRanks(score) {
     let sorted = []
 
