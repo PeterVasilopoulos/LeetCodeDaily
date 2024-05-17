@@ -27,7 +27,7 @@ function matrixReshape(mat, r, c) {
     const totalMat = rows * cols
 
     // check if the operation is possible
-    if ((totalMat / r) % c !== 0) {
+    if (r * c !== totalMat) {
         // return mat
         return mat
     }
@@ -74,7 +74,7 @@ function matrixReshapeNoCom(mat, r, c) {
 
     const totalMat = rows * cols
 
-    if ((totalMat / r) % c !== 0) {
+    if (r * c !== totalMat) {
         return mat
     }
 
