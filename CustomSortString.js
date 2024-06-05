@@ -42,3 +42,5 @@ function customSortString(order, s) {
 // console.log(customSortString(order2, s2))
 // console.log(customSortString(order3, s3))
 console.log(customSortString(order4, s4))
+
+// s
